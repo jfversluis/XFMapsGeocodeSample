@@ -5,9 +5,9 @@
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Maps Sample!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Maps Geocoding Sample!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        <maps:Map IsShowingUser="True" />
+        <maps:Map x:Name="myMap" IsShowingUser="True" MapClicked="Map_MapClicked" />
     </StackLayout>
 
 </ContentPage>
